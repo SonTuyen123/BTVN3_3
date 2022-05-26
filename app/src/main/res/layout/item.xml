@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/file"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/imgfile" />
+
+    <ImageButton
+        android:id="@+id/border"
+        android:background="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/cancel"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_border" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/file"
+        android:text="@string/video"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:background="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_baseline_cancel_24" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/file"
+        android:background="@android:color/darker_gray"/>
+</RelativeLayout>

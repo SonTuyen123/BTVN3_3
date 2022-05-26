@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BTVN3_3</string>
+    <string name="tieu_de">Folder Manager</string>
+    <string name="video">Video</string>
+    <string name="android">Android</string>
+    <string name="applock">Applock</string>
+    <string name="books">Books</string>
+    <string name="map">Map</string>
+    <string name="Au">Authenticate Using Google...</string>
+    <string name="newfolder">New folder</string>
+    <string name="newfolder1">New folder1</string>
+
+    
+</resources>
